@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>movie</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let filme of lista_filmes" >
+    <p>{{filme.overview}}</p>
+  </ion-card>
+</ion-content>

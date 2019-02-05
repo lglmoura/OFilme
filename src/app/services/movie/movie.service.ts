@@ -18,7 +18,7 @@ export class MovieService {
     return this.http.get(this.basePathUrl+"/movie/popular"+this.getApiKey())
   }
   getApiKey() {
-    return "?"
+    return "?api_key=005698ea500b12f5f957ba81e796327e"
 
   }
 }
